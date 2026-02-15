@@ -1,13 +1,10 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main() {
-    int number;
-    cout << "100 " << endl;
-    cin >> number;
+int main()
+{
+    cout << "Vadim\n";
+	cout << 36 << "\n";
 
-    cout << "100 " << endl;
-    cout << number << endl;
-
-    return 0;
+	return EXIT_SUCCESS;
 }
