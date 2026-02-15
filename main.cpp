@@ -1,14 +1,13 @@
 #include <iostream>
-#include <string>
+using namespace std;
 
 int main() {
-    std::string word;
+    int number;
+    cout << "100 " << endl;
+    cin >> number;
 
-    std::cout << " World " << std::endl;
-    std::cin >> word;
-
-    std::cout << "World " << std::endl;
-    std::cout << word << std::endl;
+    cout << "100 " << endl;
+    cout << number << endl;
 
     return 0;
 }
